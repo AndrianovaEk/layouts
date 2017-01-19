@@ -1,0 +1,148 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #778899;
+    margin: 0 auto;
+}
+
+.header {
+    height: 70px;
+    background: url(images/topbg.jpg) no-repeat;
+    background-size: 250px 70px;
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-left: 350px
+}
+
+#header {
+    font-size: 35px;
+    color: #66CDAA
+}
+
+.menu {
+    margin-top: -5px;
+    position: relative;
+    padding: 10px 135px;
+    font-size: 20px;
+    background-color: blue;
+    height: 235px;
+    background: url(images/header.jpg) no-repeat;
+    background-size: 1350px 235px;
+    cursor: pointer
+}
+
+.menu ul li {
+    list-style-image: url(images/bullet-normal.gif);
+    padding: 5px;
+    width: 80px;
+    border-bottom: 1.5px dashed;
+    border-color: #87CEEB;
+}
+
+.menu ul li:last-child {
+    border-bottom: 0 dashed;
+}
+
+.menu ul li:hover {
+    list-style-image: url(images/bullet-hover.gif);
+    color: #27408B
+}
+
+.fishesAndPlants {
+    position: relative;
+    float: left;
+    width: 150px;
+    padding: 10px 20px;
+    margin-left: 120px;
+    cursor: pointer
+}
+
+.fishesAndPlants ul li {
+    list-style-image: url(images/bullet2-normal.gif);
+}
+
+.fishesAndPlants ul li:hover {
+    list-style-image: url(images/bullet2-hover.gif);
+    color: #27408B
+}
+
+.container {
+    margin: 30px 240px 10px 360px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-left: 1.5px solid;
+    border-color: #87CEEB;
+}
+
+.picture {
+    float: left;
+    margin-right: 20px;
+    height: 130px;
+    width: 300px
+}
+
+.container-block {
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+img {
+    margin-left: -10px
+}
+
+.wraper {
+    background-color: #DDEDF9;
+    height: 10px;
+    margin-left: -10px
+}
+
+.nameOfArticle {
+    font-size: 17px;
+    margin-left: 500px;
+    color: #CD950C;
+    padding-left: 50px;
+    background: url(images/special.gif) -1px -2px no-repeat;
+    width: 115px;
+    height: 30px;
+    background-color: white;
+}
+
+.nameOfArticle:hover {
+    background: url(images/buy.gif) no-repeat;
+    background-color: white;
+    background-size: 40px 20px
+}
+
+.nameOfArticle a {
+    text-decoration: none;
+    color: #CD950C;
+}
+
+footer {
+    margin-top: 30px;
+    border-top: 1px solid;
+    border-color: #87CEEB;
+    font-size: 13px;
+    width: 100%;
+}
+
+.navigation {
+    word-spacing: 10px;
+    padding: 20px 360px;
+    background-color: #DDEDF9;
+    height: 20px
+}
+
+.rules {
+    padding: 10px 360px;
+    background-color: #C9DEEA;
+    height: 30px
+}
+
+footer a {
+    text-decoration: none;
+    color: #778899
+}
