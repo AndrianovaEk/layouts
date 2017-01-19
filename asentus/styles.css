@@ -1,0 +1,412 @@
+body {
+    background-color: #F5F7FA;
+    width: 100%;
+}
+
+#logo {
+    margin: 40px 0 0 -1050px
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: -450px
+}
+
+.carousel-caption p {
+    font-size: 15px;
+    color: #B6BAB9;
+    margin-left: 28px;
+}
+
+.carousel-caption {
+    width: 640px;
+    margin-left: -210px;
+}
+
+.carousel-indicators {
+    margin-left: -950px;
+}
+
+.container {
+    margin-top: -25px;
+    font-size: 17px;
+    font-weight: 700;
+    position: relative;
+    left: 720px;
+}
+
+.navbar-nav {
+    list-style-type: none;
+}
+
+.nav-item {
+    padding: 10px;
+    font-size: 15px;
+    color: white
+}
+
+.nav-item:hover {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none
+}
+
+.nav-item:visited {
+    color: white;
+    text-decoration: none
+}
+
+header {
+    height: 100px;
+    border-bottom: 1px solid white
+}
+
+.carousel-inner {
+    height: 650px
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container1-item {
+    margin-top: 20px;
+    width: 400px;
+    height: 200px;
+    padding: 10px 70px;
+    background-color: white;
+    cursor: pointer
+}
+
+.container1-item:hover {
+    padding-top: 30px
+}
+
+.container1-item:hover .widgets {
+    display: none;
+}
+
+h3 {
+    font-weight: 600;
+    color: #4E4F50
+}
+
+p {
+    font-size: 15px
+}
+
+.wraper {
+    margin-top: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h2 {
+    font-weight: 600;
+    color: #5C5D5F;
+    width: 1200px
+}
+
+#p {
+    width: 1200px
+}
+
+.wraper-item {
+    margin-top: 20px;
+    width: 350px;
+    height: 450px;
+    cursor: pointer
+}
+
+.LatestProducts {
+    width: 330px;
+    height: 235px;
+}
+
+@keyframes scale {
+    0% {
+        width: 330px;
+        height: 235px;
+    }
+    50% {
+        width: 400px;
+        height: 300px;
+        margin-left: -20px
+    }
+    100% {
+        width: 330px;
+        height: 235px;
+    }
+}
+
+.LatestProducts:hover {
+    animation: scale 1s linear 1
+}
+
+.partners {
+    margin-top: 70px;
+    height: 100px;
+    background-color: #F5F7FA;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.partners-item {
+    margin-top: 20px;
+    width: 190px;
+    height: 70px;
+    cursor: pointer
+}
+
+.reviews {
+    margin-top: 70px;
+    padding: 20px 70px;
+    background-color: white;
+    height: 300px
+}
+
+#customer {
+    color: #5C5D5F;
+    font-weight: 600;
+    margin-left: 40px
+}
+
+#feedback:before {
+    content: '';
+    display: block;
+    float: left;
+    margin-right: 10px;
+    background: url(img/quotes.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px
+}
+
+#feedback {
+    padding: 30px 50px 0 0;
+}
+
+.ourClients {
+    margin-top: 70px;
+    background-color: white;
+    padding: 20px 0 0 70px;
+    height: 380px
+}
+
+#client {
+    float: right;
+    height: 350px;
+    width: 600px
+}
+
+.showCase {
+    margin-top: 70px;
+    padding-bottom: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.showCase h2 {
+    margin-left: 30px;
+    width: 1250px
+}
+
+.showCase p {
+    width: 1250px;
+    margin-left: 30px;
+    margin-bottom: 20px
+}
+
+#large {
+    background: url(img/build.png) no-repeat;
+    width: 600px;
+    height: 250px;
+    background-size: 600px 250px;
+    margin-left: 140px
+}
+
+.showCase-item {
+    width: 300px;
+    height: 250px;
+    cursor: pointer
+}
+
+.description {
+    display: none;
+    color: white;
+    margin: 150px 5px 5px 10px
+}
+
+.showCase-item:hover {
+    filter: grayscale(100%);
+    transition: 0.5s
+}
+
+.showCase-item:hover .description {
+    display: block;
+}
+
+#small-1 {
+    background: url(img/build2.png) no-repeat;
+    width: 300px;
+    height: 250px;
+    background-size: 300px 250px;
+    margin-right: 140px
+}
+
+#small-2 {
+    background: url(img/man.png) no-repeat;
+    width: 300px;
+    height: 250px;
+    background-size: 300px 250px;
+}
+
+#small-3 {
+    background: url(img/build3.png) no-repeat;
+    width: 300px;
+    height: 250px;
+    background-size: 300px 250px;
+}
+
+#small-4 {
+    background: url(img/unname.png) no-repeat;
+    width: 300px;
+    height: 250px;
+    background-size: 300px 250px;
+}
+
+footer {
+    padding: 50px;
+    margin-top: 70px;
+    background: url(img/1920X1080/footer.jpg) no-repeat;
+    background-size: 1400px 650px;
+    height: 650px;
+    column-count: 3;
+    column-width: 400px;
+    color: white;
+}
+
+footer ul li {
+    list-style-type: none;
+    color: #B6BAB9;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 15px
+}
+
+footer a {
+    color: #B6BAB9;
+}
+
+footer a:hover {
+    color: #B6BAB9;
+    text-decoration: none
+}
+
+footer a:visited {
+    color: #B6BAB9;
+    text-decoration: none
+}
+
+input {
+    padding: 5px;
+    margin: 3px;
+}
+
+input[ type=text],
+input[ type=e-mail],
+input[ type=tel],
+input[ type=textarea] {
+    width: 400px;
+    opacity: 0.3;
+    color: #2F4F4F
+}
+
+input[ type=textarea] {
+    height: 100px;
+}
+
+label h2 {
+    color: white
+}
+
+input[ type=submit] {
+    background-color: #4682B4;
+    border: none;
+    height: 50px;
+    width: 100px;
+    color: white
+}
+
+
+/*ABOUT*/
+
+p {
+    color: grey
+}
+
+.about {
+    padding: 10px 5px 5px 50px;
+    background-color: white;
+    margin-top: 20px;
+    height: 300px;
+}
+
+.about img {
+    float: right;
+    height: 250px;
+    width: 400px;
+    margin: 20px;
+}
+
+.team {
+    margin-top: 20px;
+    padding: 10px 5px 5px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white
+}
+
+.team-people img {
+    height: 400px;
+    width: 350px;
+}
+
+.team-people {
+    margin-top: 20px;
+    height: 550px;
+    width: 350px
+}
+
+.team-people h4 {
+    color: grey
+}
+
+.team-people a {
+    color: #B6BAB9
+}
+
+.team-people a:hover {
+    color: #B6BAB9;
+    text-decoration: none;
+}
+
+.team-people a:visited {
+    color: #B6BAB9;
+    text-decoration: none
+}
